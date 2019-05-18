@@ -37,8 +37,8 @@ the etl process.
 
 ### Built With
 
-* [Postgress](https://www.postgresql.org/) - The web framework used
-* [Python](https://www.python.org/) - Dependency Management
+* [Postgress](https://www.postgresql.org/) - Database Management System
+* [Python](https://www.python.org/) - Scripting Language
 
 ### Contributing
 * **Teofilo Carlos Chichume ** 
