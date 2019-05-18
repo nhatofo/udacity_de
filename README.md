@@ -17,7 +17,9 @@ create_tables.py: Clean previous schema and creates tables.
 sql_queries.py: All queries used in the ETL pipeline.
 etl.py: Read JSON logs and JSON metadata and load the data into generated tables.
 
-
+## Database Schema
+  <img src="ERD.png">
+  
 ### Prerequisites
 
 postgress database instance and python 3.x installed on doker  or linux Ubuntu 14.04 or above
@@ -35,8 +37,8 @@ the etl process.
 
 ## Built With
 
-* [Dropwizard](https://www.postgresql.org/) - The web framework used
-* [Maven](https://www.python.org/) - Dependency Management
+* [Postgress](https://www.postgresql.org/) - The web framework used
+* [Python](https://www.python.org/) - Dependency Management
 
 ## Contributing
 * **Teofilo Carlos Chichume ** 
@@ -53,6 +55,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-* Inspiration [yuralim](https://github.com/yuralim/udacity_dend_project1)
+* Inspiration [yuralim](https://github.com/yuralim/udacity_dend_project1),
+[PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
 
 
