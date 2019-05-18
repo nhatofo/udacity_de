@@ -5,7 +5,6 @@ song_table_drop = "DROP TABLE IF EXISTS songs"
 artist_table_drop = "DROP TABLE IF EXISTS artists"
 time_table_drop = "DROP TABLE IF EXISTS time"
 
-
 # CREATE TABLES
 songplay_table_create = ("""CREATE TABLE songplays(
 songplay_id SERIAL PRIMARY KEY,
@@ -60,6 +59,9 @@ PRIMARY KEY (start_time))
 """)
 
 # INSERT RECORDS
+ """
+    Those a are insert tables sql staments that are used insert records into tables create above. 
+ """
 songplay_table_insert = ("""INSERT INTO songplays (start_time, user_id, level, song_id, artist_id, session_id, location, user_agent) 
  VALUES (%s, %s, %s, %s, %s, %s, %s, %s) ON CONFLICT DO NOTHING """)
 
